@@ -21,7 +21,6 @@ It is intended as a reference for learning how Word2Vec works under the hood and
   - number of negative samples
   - learning rate (with linear decay)
   - number of epochs
-  - context window size (if implemented)
 - Simple **training loop** with loss logging
 - Basic **similarity queries** (e.g., most similar words)
 
@@ -31,7 +30,7 @@ It is intended as a reference for learning how Word2Vec works under the hood and
 
 This implementation addresses the following task:
 
-> Implement the core training loop of Word2Vec in pure NumPy (no PyTorch / TensorFlow or other ML frameworks). The applicant is free to choose any suitable text dataset. The task is to implement the optimization procedure (forward pass, loss, gradients, and parameter updates) for a standard Word2Vec variant (e.g. Skip-gram with negative sampling or CBOW).
+> Implement the core training loop of Word2Vec in pure NumPy (no PyTorch / TensorFlow or other ML frameworks). The applicant is free to choose any suitable text dataset. The task is to implement the optimisation procedure (forward pass, loss, gradients, and parameter updates) for a standard Word2Vec variant (e.g. Skip-gram with negative sampling or CBOW).
 
 
 ---
